@@ -6,6 +6,12 @@ body {
 	padding: 20px;
 
 }
+
+#main-content {
+
+display: none;
+}
+
 /*bring down text*/
 #main-hud {
 	font-size: 450%;
