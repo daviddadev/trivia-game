@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Totally Trivial Trivia</title>
+	<!-- added necessary files -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/javascript/app.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+</head>
+
+
+
+
+<!-- Building a trivia game -->
+<body>
+
+	<div id=main-content>
+<!-- start button to hide after click -->
+		<button id="start" type="button" class="btn btn-primary btn-xl">Start Game</button>
+
+		<div id="main-hud">
+			<h1>Totally Trivial Trivia</h1>
+		</div>
+
+<!-- Time div -->
+		<div id="time-block">
+			<h3><span id="counter" style="color:red">Time Remainin: </span></h3>
+		</div>
+
+<!-- first question div -->
+		<div id="q1-block" class="Q-set">
+			<h2>Why did the chicken cross the road?</h2>
+			<br>
+			<form>
+
+				<input type="radio" name="Reasoning" value="To eat">To eat
+				<input type="radio" name="Reasoning" value="To sleep">To sleep
+				<input type="radio" name="Reasoning" value="To get across">To get across
+
+		</div>
+
+		<!-- 2nd quetion div -->
+		<div id="q2-block" class="Q-set">
+			<h2>What does a wood chuck do?</h2>
+			<br>
+
+				<input type="radio" name="Wood do" value="Eat poo">Eat poo
+				<input type="radio" name="Wood do" value="Chuck wood">Chuck wood
+				<input type="radio" name="Wood do" value="Layeth the smackdown">Layeth the smackdown
+
+		</div>
+
+<!-- 3rd and last set of questions -->
+		<div id="q3-block" class="Q-set">
+			<h2>What color is the red power ranger?</h2>
+			<br>
+
+				<input type="radio" name="Ranger Color" value="Apple Green">Apple Green
+				<input type="radio" name="Ranger Color" value="Nude">Nude
+				<input type="radio" name="Ranger Color" value="Red">Red
+
+			</form>
+		</div>
+	<div id="buttonSet">
+<!-- button at the bottom of page -->
+	</div>
+		<button type="button" class="btn btn-warning">Done!</button>
+	</div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
+</html>
